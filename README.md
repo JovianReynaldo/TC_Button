@@ -1,1 +1,1 @@
-Cepet cepetan, jangan lama lama
+Cepet cepetan, keburu kelamaan
