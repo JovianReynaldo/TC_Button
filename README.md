@@ -1,2 +1,2 @@
 # TC_Button
-Cepet cepetan
+Cepet cepetan, jangan lama lama
