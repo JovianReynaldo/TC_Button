@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="TC Button">
+    <meta name="author" content="TC Button">
+    <!-- Icon -->
+    <!-- <link rel="icon" href="img/logo.png"> -->
+ 
+    <!--  CSS -->
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libraries/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="libraries/jquery/jquery.dataTables.min.css">
+    
+    <title>Cepet cepetan</title>
+</head>
+<body>
+    <!-- heaer -->
+    <div class="container header">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Cepet Cepetan
+                    <span style="float: right;" id="namaku"></span>
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- content -->
+    <div class="container content"> 
+        <div id="input_name" class="col-md-6 center">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Nama Peserta" id="nama_peserta">
+                <div class="input-group-append">
+                    <button id="simpan_nama" class="btn btn-outline-dark" type="button">Simpan Nama</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- content -->
+    <div id="content" class="container content" style="display: none"> 
+        <div class="col-md-3 center" id=>
+            <button id="tombol_peserta" type="button" class="btn btn-primary btn-lg btn-block" >Push Button</button>
+        </div>
+        <br />
+        <br />
+
+        <div class="col-xs-3 col-sm-12 col-md-12 col-lg-12 center">
+            <table id="data_peserta" class="table table-striped table-hover">
+            </table>
+        </div>
+    </div>
+</body>
+
+
+<!-- firebase -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+
+<!-- Vendor JS-->
+<script src="libraries/jquery/jquery.min.js"></script>
+<script src="libraries/jquery/jquery.dataTables.min.js"></script>
+
+<!-- custom js -->
+<script src="index.js"></script>
+</html>
