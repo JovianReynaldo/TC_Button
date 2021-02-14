@@ -18,13 +18,15 @@
     <title>Cepet cepetan</title>
 </head>
 <body>
-    <!-- heaer -->
+    <!-- header -->
     <div class="container header">
-        <div class="row">
+        <div class="row"> 
             <div class="col-md-12">
-                <h2>Cepet Cepetan
-                    <span style="float: right;" id="namaku"></span>
-                </h2>
+                <div class="logo">
+                    <img src="./images/LOGO.png" alt="">
+                    <div class="title">Cepet Cepetan</div>
+                </div>
+                <div style="float: right;" id="namaku"> </div>
             </div>
         </div>
     </div>
@@ -35,7 +37,7 @@
             <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Nama Peserta" id="nama_peserta">
                 <div class="input-group-append">
-                    <button id="simpan_nama" class="btn btn-outline-dark" type="button">Simpan Nama</button>
+                    <button id="simpan_nama" class="tombol btn btn-outline-dark" type="button">Simpan Nama</button>
                 </div>
             </div>
         </div>
@@ -44,13 +46,13 @@
     <!-- content -->
     <div id="content" class="container content" style="display: none"> 
         <div class="col-md-3 center" id=>
-            <button id="tombol_peserta" type="button" class="btn btn-primary btn-lg btn-block" >Push Button</button>
+            <button id="tombol_peserta" type="button" class="btn tombol btn-primary btn-lg btn-block" >Push Button</button>
         </div>
         <br />
         <br />
 
         <div class="col-xs-3 col-sm-12 col-md-12 col-lg-12 center">
-            <table id="data_peserta" class="table table-striped table-hover">
+            <table id="data_peserta" class="table table-hover">
             </table>
         </div>
     </div>

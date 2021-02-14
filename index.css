@@ -1,6 +1,60 @@
+@font-face{
+	font-family: Gotham-Medium;
+	src: url("./fonts/gotham-cufonfonts/GothamMedium.ttf");
+}
+
+@font-face{
+	font-family: Gotham-Black;
+	src: url("./fonts/gotham-cufonfonts/Gotham-Black.otf");
+}
+
+body{
+  background-color: #04102d;
+  font-family: Gotham-Medium;
+}
+
 .header {
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.col-md-12 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+}
+
+#namaku , .title{
+  color: #fbfffe;
+  font-size: 40px;
+  font-family: Gotham-Black;
+  padding: 25px 0 25px 0;
+}
+
+.title{
+  padding: 25px;
+}
+
+.header img {
+  width: auto;
+  height: 100px;
+}
+
+.tombol{
+  background-color: #00b2ca;
+  border: none;
+}
+
+.tombol:hover{
+  background-color: #007281;
+}
+
+.table{
+  background-color: #00b2ca;
+  font-weight: 400;
 }
 
 .content {
